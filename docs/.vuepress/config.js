@@ -1,5 +1,8 @@
+const { path } = require('@vuepress/utils')
+
 module.exports = {
 	title: 'wiktor',
+	extends: '@vuepress/theme-default',
 	themeConfig: {
 		logo: '/images/wiktor/wiktor-docs-logo.svg',
 		logoDark: '/images/wiktor/wiktor-docs-logo-dark.svg',
@@ -66,6 +69,9 @@ module.exports = {
 			description: 'Dokumentace',
 			selectLanguageText: 'Jazyk',
 		},
+	},
+	layouts: {
+		layouts: path.resolve(__dirname, '/layouts'),
 	},
 	postcss: {
 		plugins: [require('tailwindcss')('./tailwind.js'), require('autoprefixer')],
