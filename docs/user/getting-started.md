@@ -16,4 +16,4 @@ A tady je nějaký text... :smile:
 
 ## Toto je wiktor
 
-<img src="/images/wiktor/wiktor-head-white-skin.svg" height="100px"/>
+<img src="/images/wiktor/wiktor-head-white-skin.svg" height="100px" class="bg-green-400"/>

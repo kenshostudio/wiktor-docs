@@ -1,5 +1,5 @@
 module.exports = {
-	theme: '@vuepress/theme-default',
+	title: 'wiktor',
 	themeConfig: {
 		logo: '/images/wiktor/wiktor-docs-logo.svg',
 		logoDark: '/images/wiktor/wiktor-docs-logo-dark.svg',
