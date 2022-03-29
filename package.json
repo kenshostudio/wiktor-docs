@@ -1,0 +1,20 @@
+{
+	"name": "wiktor-docs",
+	"version": "1.0.0",
+	"description": "Official wiktor documentation",
+	"main": "index.js",
+	"repository": "https://github.com/kenshostudio/wiktor-docs.git",
+	"author": "gabrieluhlir <69206870+gauel@users.noreply.github.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs"
+	},
+	"devDependencies": {
+		"@vuepress/plugin-search": "^2.0.0-beta.36",
+		"autoprefixer": "^10.4.4",
+		"postcss": "^8.4.12",
+		"tailwindcss": "^3.0.23",
+		"vuepress": "^2.0.0-beta.36"
+	}
+}
